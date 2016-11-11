@@ -35,8 +35,8 @@ var AwesomeProject = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop:60,
-    marginLeft:30
+    marginTop:100,
+    marginLeft:50
   },
   textcolor: {
     color: 'red',
