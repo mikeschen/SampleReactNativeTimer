@@ -26,7 +26,7 @@ var AwesomeProject = React.createClass({
   render: function() {  
     return (
       <View style={styles.container}>
-        <Text>Timer - {this.state.timeLineTop}</Text>
+        <Text style={[styles.textcolor]}>Timer - {this.state.timeLineTop}</Text>
       </View>
     );
   }
@@ -37,6 +37,9 @@ var styles = StyleSheet.create({
     flex: 1,
     marginTop:60,
     marginLeft:30
+  },
+  textcolor: {
+    color: 'red',
   },
 });
 
